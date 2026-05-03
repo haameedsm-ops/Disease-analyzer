@@ -1,0 +1,100 @@
+body {
+    font-family: 'Seoge UI', sans-serif;
+    margin: 0;
+    height: 100vh;
+
+    background: url("/static/lab.jpg.jpeg") no-repeat center center/cover;
+    position: relative;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    margin: 80px auto;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+
+    animation: popUp 0.6s ease;
+}
+
+.box {
+    position: relative;
+    z-index: 1;
+}
+
+
+@keyframes popUp {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+input {
+    padding: 12px;
+    margin: 10px;
+    width: 85%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+
+input:focus {
+    border-color: #667eea;
+    box-shadow: 0px 0px 8px rgba(102,126,234,0.5);
+    outline: none;
+}
+
+
+button {
+    padding: 12px 25px;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button {
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+body {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+a {
+    text-decoration: none;
+}
