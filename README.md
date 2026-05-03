@@ -23,3 +23,15 @@ A web-based application that predicts possible diseases based on user-entered sy
 ---
 
 ## 📂 Project Structure
+disease-analyzer/
+│
+├── app.py
+├── dataset.csv
+├── templates/
+│     ├── home.html
+│     ├── input.html
+│     └── result.html
+├── static/
+│     ├── style.css
+│     ├── script.js
+│     └── lab.jpg
