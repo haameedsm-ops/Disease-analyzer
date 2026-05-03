@@ -35,3 +35,8 @@ disease-analyzer/
 │     ├── style.css
 │     ├── script.js
 │     └── lab.jpg
+
+---
+
+## Author ©
+Shaik mohammed haameed
