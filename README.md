@@ -38,5 +38,18 @@ disease-analyzer/
 
 ---
 
+## 📸Screenshots
+
+### Home Page
+![Home](homepage.jpg)
+
+### Input Page
+![Input](inputpage.jpg)
+
+### Result Page
+![Result](resultpage.jpg)
+
+---
+
 ## Author ©
 Shaik mohammed haameed
