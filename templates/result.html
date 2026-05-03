@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="box">
+    <h1>🧬 Disease Analyzer</h1>
+    <h2>🧾 Result</h2>
+
+    <p><strong>Possible Disease:</strong> {{ disease }}</p>
+
+    <h3>🧠 Explanation:</h3>
+    <p>{{ explanation }}</p>
+
+    <h3>💊 Advice:</h3>
+    <p>{{ advice }}</p>
+
+    <p class="warning">⚠️ Not a medical diagnosis. Consult a doctor.</p>
+
+    <a href="/">⬅ Home</a>
+</div>
+
+</body>
+</html>
