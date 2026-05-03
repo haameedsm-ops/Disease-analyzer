@@ -41,13 +41,13 @@ disease-analyzer/
 ## 📸Screenshots
 
 ### Home Page
-![Home](homepage.jpg)
+![Home](homepage.jpeg)
 
 ### Input Page
-![Input](inputpage.jpg)
+![Input](inputpage.jpeg)
 
 ### Result Page
-![Result](resultpage.jpg)
+![Result](resultpage.jpeg)
 
 ---
 
